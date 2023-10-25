@@ -9,6 +9,9 @@ homepage: https://www.boost.org/
 2. Change path
 change {boost_1_78_0/include's root} to your own path
 
+## Dataset
+Download the dataset from the link https://drive.google.com/file/d/1uAq8O0rPLHV5eGOPEXi5Jol0JcN_tHvQ/view?usp=sharing
+decompress the file, and put dataset, workload and model to FHSIE
 
 ## Parameter Settings 
 16M: level_num=4; level_custer[level_num] = {20,20,20,20};
