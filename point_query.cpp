@@ -24,7 +24,7 @@ int main(){
     string model_record_path = Constants::MODEL_R_PATH;
 
     int level_num = Constants::LEVEL;
-    int level_cluster[level_num] = {27,27,27};
+    int level_cluster[level_num] = {20,20,20,20};
 
     int dim = Constants::DIM;
     int B = Constants::B;
