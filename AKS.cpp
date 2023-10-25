@@ -265,7 +265,7 @@ int main()
     srand(1);
     
     int level_num = Constants::LEVEL;
-    int level_cluster[level_num] = {27,27,27};
+    int level_cluster[level_num] = {20,20,20,20};
     int dim = Constants::DIM;
     int B = Constants::B;
     int maxEpoch = 300;
