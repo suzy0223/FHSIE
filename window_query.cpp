@@ -180,7 +180,7 @@ int main(){
     string distribution = Constants::DISTRIBUTION;
 
     int level_num = Constants::LEVEL;
-    int level_cluster[level_num] = {27,27,27};
+    int level_cluster[level_num] = {20,20,20,20};
     int partition = 1;
     for(int i = 0; i<level_num-1; i++)
     {
