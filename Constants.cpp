@@ -1,6 +1,6 @@
 #include "Constants.h"
 
-const string Constants::DATASETS = "skewed_2m";
+const string Constants::DATASETS = "skewed_16m";
 const string Constants::DISTRIBUTION = "skewed";
 const string Constants::INSERT_DISTRIBUTION = "normal";
 
