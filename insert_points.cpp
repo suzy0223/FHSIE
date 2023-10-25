@@ -404,12 +404,12 @@ int main(){
     string workload_path = Constants::INSERT_WORKLOAD_PATH;
 
     int level_num = Constants::LEVEL;
-    int level_cluster[level_num] = {27,27,27};
+    int level_cluster[level_num] = {20,20,20,20};
     int partition = 1;
     string insert_distribution = Constants::INSERT_DISTRIBUTION;
     double insert_ratio = 1.0;
-    double insert_points_num = 2000000;
-    string insert_num = "2000000";
+    double insert_points_num = 16000000;
+    string insert_num = "16000000";
     cout<<"getting datasets and workload..."<<endl;
     int data_size = getFileLine(Constants::INDEX_PATH);
     double ** dat =  get_2d_points_csv(Constants::INDEX_PATH,data_size);
