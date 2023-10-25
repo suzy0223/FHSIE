@@ -7,10 +7,10 @@ class Constants
 public:
     static const int DIM = 2;
     static const int B = 100;
-    static const int LEVEL = 3;
+    static const int LEVEL = 4;
     static const int SCALE = 10000;
     static const int SKEWNESS = 4;
-    static const int DATASIZE = 2000000;
+    static const int DATASIZE = 16000000;
 
     static const string DATASETS;
     static const string DISTRIBUTION;
